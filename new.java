@@ -1,7 +1,8 @@
 public class prashant{
 
 		public static void main(string[] args){
-
-			System.out.println("My name is Prashant")
+                        Scanner sc = new scanner();
+			string name = sc.next();
+			System.out.println("Name is: " +name)
 		}
 }
